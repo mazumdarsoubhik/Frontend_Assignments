@@ -1,0 +1,61 @@
+h1{
+	color: #0073e6;
+	
+}
+
+.text-centre{
+	text-align: center;
+	font-weight: bold;
+}
+
+.dark-c{
+	background-color: #9494b8;
+}
+
+.medium-c{
+	background-color: #b3b3cc
+}
+
+.light-c{
+	background-color: #e0e0eb
+}
+.row{
+	margin: 10px auto 10px;
+}
+.text-size-big{
+	font-size: 150%;
+}
+#collapsable-nav li{
+		text-align: center;
+		border-color: 1px solid black;
+		color: black;
+		font-weight: bold;
+	}
+
+#nav-container{
+	overflow: hidden;
+	height: 80px;
+}
+
+
+
+@media (max-width: 767px) {
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#collapsable-nav li{
+		display: none;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#collapsable-nav li{
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	#collapsable-nav li{
+		display: none;
+	}
+}
